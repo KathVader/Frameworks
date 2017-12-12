@@ -1,0 +1,107 @@
+body{
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+.contenido{
+  padding: 20px;
+  margin-top: 20px;
+}
+.logo-img {
+  width: 60%;
+}
+a img{
+  width: 30%;
+}
+.redes-sociales{
+  padding-right: 30px;
+  margin-top: 150px;
+  float: right;
+  vertical-align: bottom;
+}
+.container-fluid{
+  margin-top: 50px;
+}
+.coment{
+  margin-top: 8%;
+}
+.logo-coment{
+  width: 90%;
+}
+.foto{
+  width: 100%;
+  padding-top: 10px;
+}
+.foto2{
+  width: 100%;
+  margin-top: 20px;
+}
+div .art2{
+  margin-top: 60px;
+}
+h2{
+  text-align: center;
+}
+.bus{
+    margin-left: 5%;
+}
+.list-group{
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.foto3{
+  width: 40px;
+  margin-left: 5px;
+}
+
+@media (max-width: 450px) {
+  header .logo-img{
+    padding-top: 2%;
+    margin-left: 22%;
+  }
+  header .redes-sociales{
+    margin-right: 17%;
+  }
+  .navbar {
+    margin-top: 20px;
+    margin-left: 12%;
+  }
+  .logo-coment{
+    padding-left: 30%;
+    padding-right: 30%;
+  }
+}
+
+@media (max-width: 700px) {
+  header .logo-img{
+    padding-top: 2%;
+    margin-left: 22%;
+  }
+  .navbar {
+    padding-right: 22%;
+  }
+  .logo-coment{
+    padding-top: 50%;
+    width: 100%
+  }
+  .foto, .foto2 {
+  margin-top: 70%;
+  }
+
+}
+
+@media (max-width: 900px) {
+  header .logo-img{
+    padding-top: 2%;
+    margin-left: 22%;
+  }
+  .navbar {
+    margin-top: 20px;
+  }
+  .coment{
+    margin-top: 20px;
+  }
+  .foto{
+    padding-top: 30%;
+  }
+
+}
